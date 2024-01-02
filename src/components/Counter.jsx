@@ -1,4 +1,6 @@
-import React from 'react'
+
+
+import "./Counter.css"
 
 function Counter({title, number}) {
   return (
