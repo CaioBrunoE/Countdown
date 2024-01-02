@@ -26,12 +26,12 @@ function Countdown() {
 
     return (
         <>
-            <Title title={eventTitle} />
+            <Title title={eventTitle} eventColor={eventColor} />
             <div className="countdown-container">
-                <Counter title="Dias" number={day} />
-                <Counter title="Hora" number={hour} />
-                <Counter title="Minutos" number={minute} />
-                <Counter title="Segundos" number={second} />
+                <Counter title="Dias" number={day} eventColor={eventColor}/>
+                <Counter title="Hora" number={hour} eventColor={eventColor}/>
+                <Counter title="Minutos" number={minute} eventColor={eventColor}/>
+                <Counter title="Segundos" number={second} eventColor={eventColor}/>
             </div>
         </>
     )

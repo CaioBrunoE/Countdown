@@ -1,9 +1,11 @@
 
 import "./Title.css"
 
-function Title({title}) {
+function Title({ title, eventColor }) {
   return (
-    <h1>{title}</h1>
+    <h1 className="title" style={{ color: eventColor }}>
+      {title}
+    </h1>
   )
 }
 
